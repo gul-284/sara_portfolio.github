@@ -1,10 +1,8 @@
-// @ts-check
-import { defineConfig } from "astro/config";
-import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from 'astro/config'
 
-// https://astro.build/config
 export default defineConfig({
-  vite: {
-    plugins: [tailwindcss()],
-  },
-});
+  // Replace 'gul-284' with your GitHub username
+  site: 'https://gul-284.github.io', 
+  // Replace 'sara_portfolio.github' with your exact repo name
+  base: '/sara_portfolio.github',
+})
